@@ -10,7 +10,7 @@ Follow these steps to set up the JoyCaption GUI Mod on your system:
 Open your terminal or command prompt and run:
 
 ```bash
-git clone https://github.com/D3voz/joy-caption-beta-one-gui-mod
+git clone https://github.com/JiggyDancer/joy-caption-beta-one-gui-mod-blackwell
 cd joy-caption-beta-one-gui-mod
 ```
 
@@ -19,7 +19,7 @@ cd joy-caption-beta-one-gui-mod
 Create the virtual environment:
 
 ```bash
-# For Python 3.10 (adjust if needed)
+# For Python 3.12 (adjust if needed)
 python -m venv venv
 ```
 
@@ -37,13 +37,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-**3. Install Triton (Windows, Python 3.10/3.11)**
+**3. Install Triton**
 Triton can provide performance improvements. The wheel below is specifically for certain Python versions on Windows.
 
-* **For Python 3.10 on Windows:**
+* **For Windows:**
 
 ```bash
-pip install https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post8/triton-3.1.0-cp310-cp310-win_amd64.whl
+pip install triton-windows
 ```
 
 * **For Linux/macOS or other Python versions:**
@@ -67,7 +67,7 @@ pip install --upgrade transformers tokenizers
 ## Usage
 
 1.  Activate the venv.
-2.  `python Run_GUI.py` or `python Run_gui_4bit.py`
+2.  `python Run_GUI.py` or `python Run_GUI_FP8.py` or `python Run_gui_4bit.py`
 
 
 ## Side note
