@@ -1,4 +1,4 @@
-Vram usage: 17.4 GB For FP8, 10 gb for 4-bit.
+Vram usage: 17.4 GB For BF16, 10 gb for 4-bit.
 
 ## Installation
 
