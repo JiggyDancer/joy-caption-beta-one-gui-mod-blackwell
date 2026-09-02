@@ -10,4 +10,4 @@ accelerate==1.0.0
 PyQt5>=5.15.4  
 bitsandbytes  
 pillow
-liger-kernel==0.5.9  
+liger-kernel
